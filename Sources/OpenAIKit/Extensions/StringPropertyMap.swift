@@ -5,7 +5,9 @@
 //  Created by Marcus Arnett on 10/10/23.
 //
 
+#if canImport(SwiftUI)
 import SwiftUI
+#endif
 
 internal extension [String: Property] {
     var body: [String: Any] {
